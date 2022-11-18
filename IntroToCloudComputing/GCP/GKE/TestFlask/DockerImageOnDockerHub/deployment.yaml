@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: testflask
-          image: docker.io/DOCKER_ID/testflask:v0.1.0          
+          image: docker.io/adinakar14/testflask:v0.1.0          
           ports:
             - name: myport
               containerPort: 8888
